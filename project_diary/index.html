@@ -7,7 +7,9 @@
     </head>
     <body>
         <div id="component">
-            <h1> {{message}} </h1>
+            <button v-on:click="age++">Add one</button>
+            <button v-on:click="age--">Subtract one</button>
+            <p>My age is {{ age }}</p>
         </div>
     </body>
     <script src="app.js"></script>
